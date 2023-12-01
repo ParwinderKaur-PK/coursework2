@@ -1,4 +1,10 @@
 # Node.js
+- task: Npm@1
+  inputs:
+    command: 'install'
+    workingDir: 'coursework2'
+    customRegistry: 'useFeed'
+    customFeed: 'bf322292-4598-4a0e-82f2-5b0e602cd45f'
 # Build a general Node.js project with npm.
 # Add steps that analyze code, save build artifacts, deploy, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
